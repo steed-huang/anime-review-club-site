@@ -38,6 +38,10 @@
   font-weight: 300;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #777777;
   font-family: "Poppins", sans-serif;
@@ -47,7 +51,8 @@ body {
   position: relative;
 }
 
-ol, ul {
+ol,
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -76,7 +81,9 @@ iframe {
   border: 0;
 }
 
-a, a:focus, a:hover {
+a,
+a:focus,
+a:hover {
   text-decoration: none;
   outline: 0;
 }
@@ -100,7 +107,11 @@ a, a:focus, a:hover {
  *  Typography
  *
  **/
-.btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i {
+.btn i,
+.btn-large i,
+.btn-floating i,
+.btn-large i,
+.btn-flat i {
   font-size: 1em;
   line-height: inherit;
 }
@@ -109,8 +120,12 @@ a, a:focus, a:hover {
   background: #f9f9ff;
 }
 
-h1, h2, h3,
-h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Poppins", sans-serif;
   color: #222222;
   line-height: 1.25em !important;
@@ -119,8 +134,12 @@ h4, h5, h6 {
   font-weight: 500;
 }
 
-.h1, .h2, .h3,
-.h4, .h5, .h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   margin-bottom: 0;
   margin-top: 0;
   font-family: "Poppins", sans-serif;
@@ -128,32 +147,39 @@ h4, h5, h6 {
   color: #222222;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 36px;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 30px;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 24px;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 18px;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 16px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 14px;
   color: #222222;
 }
 
-td, th {
+td,
+th {
   border-radius: 0px;
 }
 
@@ -166,7 +192,8 @@ td, th {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.clear::before, .clear::after {
+.clear::before,
+.clear::after {
   content: " ";
   display: table;
 }
@@ -746,7 +773,12 @@ td, th {
   font-size: 24px;
 }
 
-b, i, sup, sub, u, del {
+b,
+i,
+sup,
+sub,
+u,
+del {
   color: #6cbb23;
 }
 
@@ -774,11 +806,21 @@ h6 {
   font-size: 14px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.5em;
 }
 
-.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
   color: #777777;
 }
 
@@ -1071,7 +1113,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-.progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage {
   color: #222222;
   line-height: 40px;
   text-transform: uppercase;
@@ -1084,7 +1129,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-.progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+.progress-table .table-row .serial,
+.progress-table .table-row .country,
+.progress-table .table-row .visit,
+.progress-table .table-row .percentage {
   display: flex;
   align-items: center;
 }
@@ -1976,7 +2024,11 @@ body {
   }
 }
 
-.p1-gradient-bg, .primary-btn:after, .overlay-bg, .owl-dot.active, .service-area .single-service .overlay-content {
+.p1-gradient-bg,
+.primary-btn:after,
+.overlay-bg,
+.owl-dot.active,
+.service-area .single-service .overlay-content {
   background-image: -moz-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
   background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
   background-image: -ms-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
@@ -2119,7 +2171,7 @@ body {
 }
 
 .overlay-bg {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .genric-banner {
@@ -2191,7 +2243,7 @@ body {
 
 .parallux-area .overlay-bg {
   background: #222;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .parallux-area h2 {
@@ -2228,7 +2280,7 @@ body {
 }
 
 .service-area .single-service .overlay-content {
-  opacity: .8;
+  opacity: 0.8;
   padding: 30px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2515,7 +2567,8 @@ body {
   color: #fff;
 }
 
-.footer-area .copy-right-text a, .footer-area .copy-right-text i {
+.footer-area .copy-right-text a,
+.footer-area .copy-right-text i {
   color: #bc5ede;
 }
 
