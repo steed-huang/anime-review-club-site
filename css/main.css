@@ -2657,7 +2657,7 @@ ul {
 .our-webcoderskull .cnt-block {
   float: left;
   width: 100%;
-  background: #fff;
+  background-image: linear-gradient(#f2eafa, #efecf8);
   padding: 30px 20px;
   text-align: center;
   border: 2px solid #d5d5d5;
@@ -2709,6 +2709,9 @@ ul {
 }
 .our-webcoderskull .cnt-block .follow-us li .fa:hover {
   color: #025a8e;
+}
+
+.figure-circle {
 }
 
 /*End Team Pictures*/
